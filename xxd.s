@@ -1,4 +1,4 @@
-	.file	"xxd.c"
+	.file	"xxd.s"
 	.text
 	.globl	version
 	.data
@@ -6,7 +6,7 @@
 	.type	version, @object
 	.size	version, 41
 version:
-	.string	"xxd 2022-01-14 by Juergen Weigert et al."
+	.string	"xxd 4 halo"
 	.globl	osver
 	.bss
 	.type	osver, @object
